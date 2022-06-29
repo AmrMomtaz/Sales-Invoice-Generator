@@ -1,7 +1,8 @@
-import view.GUI;
+import controller.Controller;
 
 public class Main {
-    public static void main(String[] args){
-        GUI gui = new GUI();
+    // Main function which initialize the controller to run the program
+    public static void main(String[] args) {
+        new Controller();
     }
 }
